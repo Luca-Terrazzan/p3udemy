@@ -35,4 +35,3 @@ ul_nums = [4, 8, 1, 2, 22]
 print(ul_nums)
 ul_nums.sort()
 print(ul_nums)
-ul
