@@ -10,6 +10,8 @@ class Square():
     _edge = 0
 
     def __init__(self, edge):
+        if edge <= 0:
+            raise Exception('Invalid shape.')
         self._edge = edge
 
     def area(self):
