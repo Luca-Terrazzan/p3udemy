@@ -4,4 +4,4 @@
 def cap_text(text: str):
     """Capitalize a string
     """
-    return text.capitalize()
+    return text.title()
