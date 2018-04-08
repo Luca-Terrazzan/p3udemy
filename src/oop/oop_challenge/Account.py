@@ -13,8 +13,8 @@ class Account():
 
     def withdraw(self, amount: float):
         if amount < 0.00 or (self.balance - amount) < 0.00:
-            raise Exception('Deposits must be made on positive amounts!')
+            raise Exception('Cannot withdraw the desired amount!')
         self.balance -= amount
 
     def __str__(self):
-        return f'Account owner: {self.owner}. Accoutn balance: {self.balance}'
+        return f'Account owner: {self.owner}. Account balance: {self.balance}'
