@@ -12,7 +12,7 @@ class Account():
         self.balance += amount
 
     def withdraw(self, amount: float):
-        if amount < 0.00 or (self.balance - amount) < 0.00:
+        if amount < 0.00 or (self.balance < amount):
             raise Exception('Cannot withdraw the desired amount!')
         self.balance -= amount
 
