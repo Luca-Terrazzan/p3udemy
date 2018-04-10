@@ -8,5 +8,5 @@ class Card():
         self.value = val
         self.suit = suit
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'{self.value.name} of {self.suit.name}'
