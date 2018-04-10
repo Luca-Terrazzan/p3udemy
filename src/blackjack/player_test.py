@@ -1,5 +1,5 @@
 import unittest
-from player import *
+from .player import Player, BankruptException
 
 class PlayerTest(unittest.TestCase):
     def test_player_wins_hand(self):
