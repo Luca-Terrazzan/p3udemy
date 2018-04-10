@@ -2,7 +2,7 @@
     "python.unitTest.unittestArgs": [
         "-v",
         "-s",
-        "src/blackjack",
+        "src",
         "-p",
         "*_test.py"
     ],
